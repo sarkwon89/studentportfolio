@@ -35,20 +35,23 @@ h2 {
     margin-bottom:auto;
     background: #ffffff;
     padding: 20px;
-    margin: 20px 150px 0px 150px;
+    margin: 0% auto;
     width: 960px;
+    border-style: solid;
+    border-color: red;
 }
 
 
 .container {
-    float: left;
     background: #ffffff;
     padding: 20px;
     box-sizing: border-box;
     border-top-color: grey;
     border-top: solid;
-    margin: 0px 150px;
+    margin: 0px auto;
     width: 960px;
+    border-style: solid;
+    border-color: red;
 }
 
 #bio-image {
