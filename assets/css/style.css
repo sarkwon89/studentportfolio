@@ -1,7 +1,6 @@
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    background: lightgreen;
     background-image: url(../images/greek-vase.png)
 }
 
@@ -21,6 +20,8 @@ h1 {
     background: #4aaaa5;
     margin: 0%;
     padding: 18px;
+    border-style: solid;
+    border-color: red;
 }
 
 .nav-links {
@@ -34,11 +35,10 @@ h1 {
 h2 {
     margin-bottom:auto;
     background: #ffffff;
-    padding: 20px;
-    margin: 0% auto;
-    width: 960px;
     border-style: solid;
     border-color: red;
+    display: flex;
+        justify-content: left;
 }
 
 
