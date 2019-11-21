@@ -1,57 +1,88 @@
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    background-image: url(../images/greek-vase.png)
+    background-image: url(../images/greek-vase.png);
 }
 
 header {
     background: #ffffff;
+    color: #ffffff;
     box-sizing: border-box;
-    border-style: solid;
-    border-color: red;
+    border: 1px solid #cccccc;
+    height: 10vh;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
-    padding: 0px 150px;
-    
 }
 
 h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     background: #4aaaa5;
-    margin: 0%;
-    padding: 18px;
-    border-style: solid;
-    border-color: red;
+    height: 83px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    align-items: center;
 }
 
+a {
+    color: #777777;
+    text-decoration: none;
+}
 .nav-links {
-    list-style-type: none;
+    list-style: none;
 }
 
 .nav-links li {
     display: inline;
 }
 
-h2 {
-    margin-bottom:auto;
-    background: #ffffff;
-    border-style: solid;
-    border-color: red;
+.main-header {
     display: flex;
-        justify-content: left;
+    justify-content:space-between;
+    align-items: center;
+    width: 960px;
+    height: 85px;
 }
 
+#About {
+    border-right: 1px solid #cccccc;
+    padding: 0px 15px 0px 0px;
+}
+
+#Portfolio {
+    padding: 0px 15px 0px 15px;
+    border-right: 1px solid #cccccc;
+}
+
+#Contact {
+    padding: 0px 0px 0px 15px; 
+}
+
+h2 {
+    color:#4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin-bottom:20px;
+    border-bottom: solid;
+    border-bottom-color: #cccccc;
+    background: #ffffff;
+}
 
 .container {
     background: #ffffff;
     padding: 20px;
     box-sizing: border-box;
-    border-top-color: grey;
-    border-top: solid;
     margin: 0px auto;
     width: 960px;
-    border-style: solid;
-    border-color: red;
+    border: 1px solid #cccccc;
+    height: 60vh;
+}
+
+.form1 {
+    width:960px;
+}
+
+#blank-space {
+    height:15vh;
 }
 
 #bio-image {
@@ -63,4 +94,11 @@ h2 {
 
 footer {
     background-color:#666666;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    height: 10vh;
+    color:#ffffff;
 }
+
+
+
