@@ -2,6 +2,7 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     background-image: url(../images/symphony.png);
+    margin: 0%;
 }
 
 header {
@@ -19,7 +20,7 @@ h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     background: #4aaaa5;
     height: 83px;
-    padding: 0px 20px 0px 20px;
+    padding: 10px 20px 10px 20px;
     display: flex;
     align-items: center;
 }
@@ -71,10 +72,10 @@ h2 {
     background: #ffffff;
     padding: 20px;
     box-sizing: border-box;
-    margin: 0px auto;
+    margin: 5vh auto;
     width: 960px;
     border: 1px solid #cccccc;
-    height: 60vh;
+    min-height: 50vh;
 }
 
 form {
@@ -92,10 +93,6 @@ input[type=submit] {
     color: #ffffff;
 }
 
-#blank-space {
-    height:15vh;
-}
-
 #bio-image {
     width: auto;
     max-height: 200px;
@@ -107,17 +104,25 @@ footer {
     background-color:#666666;
     text-align: center;
     border-top: 8px solid #4aaaa5;
+    margin-top: 30vh;
     height: 10vh;
     color:#ffffff;
-    font-size: xx-small;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.gridbox {
+    display:flex;
+    justify-content: space-around;
 }
 
 .column {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 50vh;
-
+    display: flex;
+    align-content: space-evenly;
+    height: 100%; 
 }
 
 .box {
@@ -127,26 +132,17 @@ footer {
     margin: 20px;
 }
 
-.image-container {
-    height: 170px;
-}
-
-.image {
-    height: 150px;
-    width: 250px;
+.image {    
+    height: 100px;
+    width: 200px;
     border: solid red;
     margin: 20px;
 }
 
-#image1 {
-    height: 20%;
-    width: 250px;
+.banner {
     border: solid red;
-    z-index: 1;
+    width:100px;
+    height: 30px;
+    z-index: 2;
     position: relative;
-    text-align: center;
-    bottom: 35%;
-    left: 7%;
-    margin: 0%;
-    background-color:#4aaaa5;
 }
