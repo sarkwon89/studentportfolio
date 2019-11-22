@@ -22,8 +22,8 @@ h1 {
     display: flex;
     align-items: center;
     margin: 0%;
-    padding: 20px;
-    height: 69px;
+    padding: 0px 20px 0px 20px;
+    height: 89px;
 }
 
 a {
