@@ -3,6 +3,7 @@ body {
     color: #777777;
     background-image: url(../images/symphony.png);
     margin: 0%;
+    font-size: 20px;
 }
 
 header {
@@ -19,10 +20,11 @@ header {
 h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     background: #4aaaa5;
-    height: 83px;
-    padding: 10px 20px 10px 20px;
+    height: 80px;
+    padding: 17px 10px 17px 10px;
     display: flex;
     align-items: center;
+    margin:0%;
 }
 
 a {
@@ -61,14 +63,15 @@ a {
 
 h2 {
     color:#4aaaa5;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
     margin-bottom:20px;
     border-bottom: solid;
     border-bottom-color: #cccccc;
     background: #ffffff;
+    font-size: 35px;
 }
 
 .container {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     background: #ffffff;
     padding: 20px;
     box-sizing: border-box;
@@ -117,32 +120,36 @@ footer {
 .gridbox {
     display:flex;
     justify-content: space-around;
+    width: 960px;
 }
 
 .column {
     display: flex;
     align-content: space-evenly;
-    height: 100%; 
+    height: 100%;
+    position: relative;
+    right: 2%; 
 }
 
-.box {
-    height: 150px;
-    width: 250px;
-    border: solid red;
+.image {   
+    height: 195px; 
+    width: 265px;
     margin: 20px;
-}
-
-.image {    
-    height: 100px;
-    width: 200px;
-    border: solid red;
-    margin: 20px;
+    position: relative;
 }
 
 .banner {
-    border: solid red;
-    width:100px;
-    height: 30px;
-    z-index: 2;
+    background-color:#4aaaa5;
+    width: 267px;
+    height: 64px;
+    z-index: 4;
     position: relative;
+    bottom: 25%;
+    left: 13%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 25px;
 }
